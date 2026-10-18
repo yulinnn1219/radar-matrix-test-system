@@ -1,0 +1,12 @@
+{
+  "name": "radar-matrix-test-system",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "雷达 T/R 组件智能矩阵测试系统，本地模拟验证版",
+  "engines": { "node": ">=24.0.0" },
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test --test-isolation=none tests/*.test.mjs"
+  }
+}

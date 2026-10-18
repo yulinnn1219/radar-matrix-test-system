@@ -1,0 +1,13 @@
+data/
+test-output/
+*.log
+node_modules/
+docs/reference/
+.tools/
+.env
+.env.*
+!.env.example
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
